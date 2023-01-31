@@ -60,7 +60,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome Books] <a name="about-project"></a>
+# 📖 [Leaderboard] <a name="about-project"></a>
 
 **[Leaderboard]** is a project designed to display your recent scores.
 
