@@ -1,15 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
 body {
   font-weight: bold;
-  font-family: serif;
+  font-family: 'Mochiy Pop One', sans-serif;
+    background: url('img-b.png');
+
+}
+.main-container {
+  background-color: #990033;
+  margin: 5%;
+  border-radius: 12px;
+  box-shadow: 4px 4px  rgba(54, 23, 23, 0.8);
+
 }
 
 h1 {
   font-size: 60px;
   padding-left: 4%;
+  color: green;
+  text-align: center;
 }
 
 h2 {
-  font-size: 46px;
+  font-size: 38px;
+  color: #f2f2f2;
 }
 
 .recent-refresh {
@@ -25,15 +39,19 @@ h2 {
 }
 
 button {
-  width: auto;
-  height: 30px;
-  box-shadow: 2px 4px black;
-  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.arrow {
+color: green;
+font-size: 40px;
+font-weight: bold;
 }
 
 ul {
-  border: 2px solid black;
-  margin: 0;
+  border-bottom: 2px solid black;
+  margin: 0 0 24px 0;
   padding: 0;
 }
 
@@ -45,10 +63,12 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: white;
 }
 
 ul li:nth-child(even) {
   background: #f2f2f2;
+  color: black;
 }
 
 #refresh {
@@ -56,7 +76,7 @@ ul li:nth-child(even) {
 }
 
 .container {
-  width: 70%;
+  width: 90%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(327px, 2fr));
   margin: 0 auto;
@@ -72,7 +92,19 @@ form {
 
 .add-score {
   width: 80%;
+  margin-bottom: 24px;
 }
+
+#add-score {
+  color: white;
+  height: 30px;
+  box-shadow: 2px 4px black;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+
 
 input {
   width: auto;
