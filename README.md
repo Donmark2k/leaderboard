@@ -103,10 +103,12 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 
-- **[Create a git flow]**
+- **[Send and receive data from an API]**
 - **[Create a webpack]**
-- **[Hardcode the name and scores]**
+- **[Use API documentation]**
 - **[Used Es6 import]**
+ **[Understand and use JSON.]**
+- **[Make JavaScript code asynchronous.]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -154,14 +156,12 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:myaccount/Leadership.git
 ```
 
 ### Install
 
-Install this project with:
-- cd my-folder
--  git clone https://github.com/donmark2k/Leadership.git
+- Run npm install after cloning the repo
 
 install npx
 
@@ -175,10 +175,8 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
-- Open the cloned folder on the VS code
-- Open the live server
-
+- Run npm start for development. 
+- Run npm run build for production
 
 <!--
 Example command:
@@ -191,9 +189,10 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
-- To check for stylelint errors, run npx stylelint "**/*.css{css,scss}".
-- To check for javascript error, run npx eslint .
-
+- Run npx eslint . for JS check
+- Run npx eslint . --fix to fix JS errors if found
+- Run npx stylelint "**/*.{css,scss}" for CSS check
+- Run npx stylelint "**/*.{css,scss}" --fix to fix CSS errors if found.
 <!--
 Example command:
 
@@ -257,7 +256,7 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 [Victor Chiemerie](https://github.com/Victor-chiemerie) has been of tremendous help so far.
-If you like this project...
+Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
