@@ -4,7 +4,7 @@ const eachScore = (item, index) => {
   scoreSheet.innerHTML += `
     <li>
       <span>${index + 1} - ${item.user}</span>
-      <span>${item.score} PTS</span>
+      <span>${item.score} points</span>
     </li>
   
   `;

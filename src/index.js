@@ -9,13 +9,12 @@ const refreshButton = document.getElementById('refresh');
 const userName = document.getElementById('name');
 const userScore = document.getElementById('score');
 
+refreshButton.addEventListener('click', () => {
+  getScore();
+});
 
-refreshButton.addEventListener('click',() => {
-    getScore();
-  });
-
-  inputForm.addEventListener('submit', (event) => {
-    event.preventDefault();
+inputForm.addEventListener('submit', (event) => {
+  event.preventDefault();
   const name = userName.value;
   const score = userScore.value;
   postScore(name, score);
