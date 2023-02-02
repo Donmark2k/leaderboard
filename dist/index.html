@@ -1,36 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-<script defer src="main.js"></script></head>
-<body>
+  <script defer src="main.js"></script></head>
+  <body>
     <h1>Leaderboard</h1>
     <section class="container">
-        <div class="recent-scores">
-            <div class="recent-refresh">
-                <h2>Recent scores</h2>
-                <button id="refresh">Refresh</button>
-            </div>
-            <ul class="scores-list">
-            </ul>
-
+      <div class="recent-scores">
+        <div class="recent-refresh">
+          <h2>Recent scores</h2>
+          <button id="refresh">Refresh</button>
         </div>
+        <ul class="scores-list"></ul>
+      </div>
 
-        <div class="add-score">
-            <h2>Add your score</h2>
-            <form id="score-form" method="post" >
-                    <label for="title"></label>
-                    <input id="title" type="text" placeholder="Your name" required />
-                    <label for="author"></label>
-                    <input id="author" type="text" placeholder="Your score" required />
-                    <button type="submit" id="add-score">Submit</button>
-             </form>
-
-        </div>
+      <div class="add-score">
+        <h2>Add your score</h2>
+        <form id="score-form" method="post">
+          <label for="Name"></label>
+          <input id="name" type="text" placeholder="Your name" required />
+          <label for="Score"></label>
+          <input id="score" type="number" placeholder="Your score" required />
+          <button type="submit" id="add-score">Submit</button>
+        </form>
+      </div>
     </section>
-    
-</body>
+  </body>
 </html>
