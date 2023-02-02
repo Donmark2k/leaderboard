@@ -39,9 +39,12 @@ ul {
 
 li {
   list-style-type: none;
-  padding: 4px;
+  padding: 4px 8px;
   width: auto;
   margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 ul li:nth-child(even) {

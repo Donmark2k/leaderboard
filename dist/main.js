@@ -116,7 +116,47 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n//# sourceURL=webpack://leadership/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_getScore_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/getScore.js */ \"./src/modules/getScore.js\");\n/* harmony import */ var _modules_postScore_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/postScore.js */ \"./src/modules/postScore.js\");\n\r\n\r\n\r\n\r\nwindow.onload = (0,_modules_getScore_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\r\n\r\nconst inputForm = document.getElementById('score-form');\r\nconst refreshButton = document.getElementById('refresh');\r\nconst userName = document.getElementById('name');\r\nconst userScore = document.getElementById('score');\r\n\r\n\r\nrefreshButton.addEventListener('click',() => {\r\n    (0,_modules_getScore_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\r\n  });\r\n\r\n  inputForm.addEventListener('submit', (event) => {\r\n    event.preventDefault();\r\n  const name = userName.value;\r\n  const score = userScore.value;\r\n  (0,_modules_postScore_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(name, score);\r\n  inputForm.reset();\r\n});\n\n//# sourceURL=webpack://leadership/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/api.js":
+/*!****************************!*\
+  !*** ./src/modules/api.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/LZee06uVNWuyMRQsEJXm/scores';\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (url);\n\n//# sourceURL=webpack://leadership/./src/modules/api.js?");
+
+/***/ }),
+
+/***/ "./src/modules/displayScores.js":
+/*!**************************************!*\
+  !*** ./src/modules/displayScores.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst scoreSheet = document.querySelector('.scores-list');\r\n\r\nconst eachScore = (item, index) => {\r\n  scoreSheet.innerHTML += `\r\n    <li>\r\n      <span>${index + 1} - ${item.user}</span>\r\n      <span>${item.score} PTS</span>\r\n    </li>\r\n  \r\n  `;\r\n};\r\n\r\nconst displayScores = (object) => {\r\n  scoreSheet.innerHTML = '';\r\n  const scores = object.result;\r\n  scores.sort((a, b) => b.score - a.score);\r\n  scores.forEach(eachScore);\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (displayScores);\n\n//# sourceURL=webpack://leadership/./src/modules/displayScores.js?");
+
+/***/ }),
+
+/***/ "./src/modules/getScore.js":
+/*!*********************************!*\
+  !*** ./src/modules/getScore.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _displayScores_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./displayScores.js */ \"./src/modules/displayScores.js\");\n/* harmony import */ var _api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./api.js */ \"./src/modules/api.js\");\n\r\n\r\n\r\nconst getScore = async () => {\r\n  await fetch(\r\n    _api_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\r\n  )\r\n    .then((response) => response.json())\r\n    .then((json) => (0,_displayScores_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(json));\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getScore);\n\n//# sourceURL=webpack://leadership/./src/modules/getScore.js?");
+
+/***/ }),
+
+/***/ "./src/modules/postScore.js":
+/*!**********************************!*\
+  !*** ./src/modules/postScore.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _getScore_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getScore.js */ \"./src/modules/getScore.js\");\n/* harmony import */ var _api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./api.js */ \"./src/modules/api.js\");\n\r\n\r\n\r\nconst postScore = async (name, score) => {\r\n  await fetch(\r\n    _api_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\r\n    {\r\n      method: 'POST',\r\n      body: JSON.stringify({\r\n        user: name,\r\n        score,\r\n      }),\r\n      headers: {\r\n        'Content-type': 'application/json; charset=UTF-8',\r\n      },\r\n    },\r\n  )\r\n    .then((response) => response.json())\r\n    .then(() => (0,_getScore_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (postScore);\n\n//# sourceURL=webpack://leadership/./src/modules/postScore.js?");
 
 /***/ })
 
