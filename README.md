@@ -60,9 +60,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Leaderboard] <a name="about-project"></a>
+# 📖 Leaderboard  <a name="about-project"></a>
 
-**[Leaderboard]** is a project designed to display your recent scores.
+**Leaderboard** is an app designed to display all scores in a chess game with highest scores occupying the first position.
 
 
 ## 🛠 Built With <a name="built-with"></a>
