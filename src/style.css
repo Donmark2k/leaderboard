@@ -13,14 +13,14 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 6vw;
   padding-left: 4%;
   color: green;
   text-align: center;
 }
 
 h2 {
-  font-size: 38px;
+  font-size: 3.25vw;
   color: #f2f2f2;
 }
 
@@ -33,7 +33,9 @@ h2 {
 }
 
 .recent-scores {
-  width: 100%;
+  width: 92%;
+  margin: 0;
+  padding: 0;
 }
 
 button {
