@@ -237,7 +237,8 @@ Example:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
+- I will add time and date below the nav bar
+- I will add a footer to the home page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
