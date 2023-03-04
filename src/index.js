@@ -22,6 +22,7 @@ inputForm.addEventListener('submit', (event) => {
   
   const name = userName.value;
   const score = userScore.value;
+
   let validateScore =scoreRegex.test(score);
   let validateName = nameRegex.test(name);
 
@@ -31,7 +32,7 @@ inputForm.addEventListener('submit', (event) => {
 
   if (name !== '' && score !== '') {
     if (validateName && validateScore) {
-      postData(name, score);
+      postScore(name, score);
       inputForm.reset();
     } else {
       error.innerHTML = 'Please your name should contain only alphabet and your score only numbers'; 
