@@ -10,8 +10,6 @@ const userName = document.getElementById('name');
 const userScore = document.getElementById('score');
 const error = document.getElementById('error-message');
 
-error.style.visibility = 'hidden';
-
 refreshButton.addEventListener('click', () => {
   getScore();
 });
@@ -27,7 +25,9 @@ inputForm.addEventListener('submit', (event) => {
   let validateScore =scoreRegex.test(score);
   let validateName = nameRegex.test(name);
 
-   error.style.visibility = 'visible';
+  setTimeout(() => {
+    error.style.display = "none";
+  }, 7000);
 
   if (name !== '' && score !== '') {
     if (validateName && validateScore) {
