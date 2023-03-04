@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Chess Leaderboard</title>
   <script defer src="main.js"></script></head>
   <body>
       <section class="main-container">
@@ -22,11 +22,12 @@
         <h2>Add your score</h2>
         <form id="score-form" method="post">
           <label for="Name"></label>
-          <input id="name" type="text" placeholder="Your name" required />
+          <input id="name" type="text" placeholder="Your name" maxlength="20" />
           <label for="Score"></label>
-          <input id="score" type="number" placeholder="Your score" required />
+          <input id="score" type="text" placeholder="Your score" maxlength="6" />
           <button type="submit" id="add-score">Submit Your Score</button>
         </form>
+        <p id="error-message" >  </p>
       </div>
     </section>
 </section>
