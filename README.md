@@ -70,34 +70,6 @@ After you're finished please remove all the comments and instructions!
 - CSS
 - Javascript
 
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project. -->
-
- <details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="#">Index.html</a></li>
-        <li><a href="#">main.js</a></li>
-            <li><a href="#">Style.css</a></li>
-
-
-  </ul>
-</details> 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -126,8 +98,6 @@ After you're finished please remove all the comments and instructions!
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -171,7 +141,6 @@ Example command:
   cd my-project
   npx install
 ```
---->
 
 ### Usage
 
@@ -223,8 +192,6 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
  👤**Chukwuemeka Ochuba**
 
 - GitHub: [@Donmark2k](https://github.com/Donmark2k)
@@ -272,8 +239,6 @@ I would like to appreciate [Microverse](https://www.microverse.org/) for providi
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Are you sure that you are owner of this work]**
 
