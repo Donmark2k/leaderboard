@@ -3,7 +3,7 @@
 body {
   font-weight: bold;
   font-family: 'Mochiy Pop One', sans-serif;
-  background: url('ccc.png');
+  background: url('background-image.png');
 }
 
 .main-container {
@@ -51,7 +51,6 @@ button {
 }
 
 ul {
-  border-bottom: 2px solid black;
   margin: 0 0 24px 0;
   padding: 0;
   width: 90%;
@@ -75,6 +74,7 @@ ul li:nth-child(even) {
 
 #refresh {
   margin: auto 0;
+  cursor: pointer;
 }
 
 .container {
@@ -114,4 +114,17 @@ input {
   width: auto;
   padding: 8px;
   border-radius: 4px;
+}
+
+#error-message {
+  color: white;
+  font-size: 12px;
+  border-radius: 4px;
+  animation: blink 4s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 40%;
+  }
 }
