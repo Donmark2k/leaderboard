@@ -14,9 +14,6 @@ refreshButton.addEventListener('click', () => {
   getScore();
 });
 
-
-
-
 inputForm.addEventListener('submit', (event) => {
   event.preventDefault();
   const nameRegex = /^[A-Za-z ]*$/;
@@ -27,7 +24,6 @@ inputForm.addEventListener('submit', (event) => {
 
   const validateScore = scoreRegex.test(score);
   const validateName = nameRegex.test(name);
-
 
   if (name !== '' && score !== '') {
     if (validateName && validateScore) {
@@ -40,4 +36,3 @@ inputForm.addEventListener('submit', (event) => {
     error.innerHTML = 'Please enter your name and score';
   }
 });
-
