@@ -69,7 +69,7 @@ After you're finished please remove all the comments and instructions!
 - HTML
 - CSS
 - Javascript
-
+- Webpack
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -103,18 +103,11 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- In order to run this project you need:
+ In order to run this project you need:
 
 - [git](https://git-scm.com/downloads): A tool for managing source code
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
@@ -122,38 +115,23 @@ Clone this repository to your desired folder:
 https://github.com/donmark2k/leaderboard.git
 
 
-Example commands:
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/leaderboard.git
-```
+### Installation and Set Up
 
-### Install
-
-- Run npm install after cloning this repository
-
-install npx
-
-Example command:
-
-```sh
-  cd my-project
-  npx install
-```
+- In your local PC, open your terminal in the folder you would like to clone the repository into
+- Clone the repository with the command: git clone (copied link); like so: https://github.com/Donmark2k/leaderboard.git
+- After the clone, type in the command cd GD_summit to access the directory on the terminal
+- Once the files are on your machine, open the leaderboard folder in Visual Studio Code, and follow the steps in Usage
 
 ### Usage
 
-- Run npm start for development. 
-- Run npm run build for production
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+1. Install Node Modules
+- npm install
+2. Start the development server
+- npm run start
+3. Open http://localhost:8080 to view it in the browser.
+4. Generate a full static production build
+- npm run build
 
 ### Run tests
 
@@ -162,13 +140,6 @@ To run tests, run the following command:
 - Run npx eslint . --fix to fix JS errors if found
 - Run npx stylelint "**/*.{css,scss}" for CSS check
 - Run npx stylelint "**/*.{css,scss}" --fix to fix CSS errors if found.
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
@@ -178,13 +149,6 @@ You can deploy this project using:
 Github pages
 
 <p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example</p>
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
