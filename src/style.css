@@ -126,6 +126,6 @@ input {
 
 @keyframes blink {
   50% {
-    opacity: 30%;
+    opacity: 40%;
   }
 }
