@@ -91,7 +91,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- > Add a link to your deployed project. -->
 
-- [Live Demo Link](https://donmark2k.github.io/Leadership/dist/)
+- [Live Demo Link](https://donmark2k.github.io/leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,19 +119,19 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
-https://github.com/donmark2k/Leadership.git
+https://github.com/donmark2k/leaderboard.git
 
 
 Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/Leadership.git
+  git clone git@github.com:myaccount/leaderboard.git
 ```
 
 ### Install
 
-- Run npm install after cloning the repo
+- Run npm install after cloning this repository
 
 install npx
 
