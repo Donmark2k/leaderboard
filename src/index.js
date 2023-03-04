@@ -38,5 +38,3 @@ inputForm.addEventListener('submit', (event) => {
     error.innerHTML = 'Please enter your name and score';
   }
 });
-
-
