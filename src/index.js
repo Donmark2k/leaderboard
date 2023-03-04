@@ -24,14 +24,12 @@ inputForm.addEventListener('submit', (event) => {
 
   const validateScore = scoreRegex.test(score);
   const validateName = nameRegex.test(name);
-
-  setTimeout(() => {
-    error.style.display = 'none';
-  }, 7000);
+  error.style.display = 'block';
 
   if (name !== '' && score !== '') {
     if (validateName && validateScore) {
       postScore(name, score);
+      error.style.display = 'none';
       inputForm.reset();
     } else {
       error.innerHTML = 'Please your name should contain only alphabet and your score only numbers';
