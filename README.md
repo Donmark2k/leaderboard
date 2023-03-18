@@ -149,9 +149,7 @@ To run the project, execute the following command:
 You can deploy this project using:
 - Github pages
 
-Github pages
-
-<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example</p>
+<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example on how to deploy on github pages</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
