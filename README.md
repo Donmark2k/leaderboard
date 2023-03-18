@@ -75,12 +75,12 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 
-- **[Send and receive data from an API]**
-- **[Create a webpack]**
-- **[Use API documentation]**
-- **[Used Es6 import]**
- **[Understand and use JSON.]**
-- **[Make JavaScript code asynchronous.]**
+- Send and receive data from an API
+- Create a webpack
+- Use API documentation
+- Used Es6 import
+- Understand and use JSON.
+- Make JavaScript code asynchronous.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -93,11 +93,13 @@ After you're finished please remove all the comments and instructions!
 
 - [Live Demo Link](https://donmark2k.github.io/leaderboard/dist/)
 
+## Project Screenshots
+
+![Home page](./src/asset/screenshot.png)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -113,10 +115,10 @@ In order to run this project you need:
 
 ### Setup
 To get a local copy of this project up and running, follow these steps.
-- copy [this link](https://github.com/Donmark2k/maths-magicians.git).
+- copy [this link](https://github.com/Donmark2k/leaderboard.git).
 - get to the directory that you want to clone the repository.
 - open the command prompt in this directory.
-- write `git clone github.com/Donmark2k/maths-magicians.git`
+- write `git clone github.com/Donmark2k/leaderboard.git`
 - go to the repository folder in your command prompt cd maths-magicians
 - write `code .` to open the project in visual studio code.
 
@@ -124,20 +126,20 @@ To get a local copy of this project up and running, follow these steps.
 
 To install this project in your local machine use
 
-- Goto the terminal in Visual Studio code by pressing `ctrl '`
+- Goto the terminal in Visual Studio code by pressing `ctrl + '`
 - Install the project dependencies by typing: `npm install` in the terminal.
 
 ### Usage
 To run the project, execute the following command:
 
-- In visual studio terminal type `npm start` then the project will open on your browser "http://localhost:3000".
+- In visual studio terminal type `npm run start` then the project will open on your browser "http://localhost:3000".
 
 ### Run tests
 
-- `npx stylelint "/*.{css,scss}"**`: To test css code
-- `npx stylelint "**/*.{css,scss}" --fix`: To fix some CSS errors if found.
+- `npx stylelint "/*.{css,scss}"**` : To test css code
+- `npx stylelint "**/*.{css,scss}" --fix` : To fix some CSS errors if found.
 - `npx eslint .` : To test Eslint Report
-- `npx eslint . --fix`: To fix some JS errors if found
+- `npx eslint . --fix` : To fix some JS errors if found
 
 ### To test the application
 
@@ -180,7 +182,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Donmark2k/leaderboard/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,7 +191,7 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 [Victor Chiemerie](https://github.com/Victor-chiemerie) has been of tremendous help so far.
-Give a ⭐️ if you like this project!
+- Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
