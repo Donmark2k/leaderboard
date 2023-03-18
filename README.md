@@ -74,7 +74,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-
 - Send and receive data from an API
 - Create a webpack
 - Use API documentation
@@ -111,7 +110,7 @@ In order to run this project you need:
 - Have a working and updated browser
 - Have a local version control like git installed on your computer
 - Have an account and sign in on GitHub, as online/remote version control system
-- Basic knowledge in JS and React-JS
+- Basic knowledge in JS
 
 ### Setup
 To get a local copy of this project up and running, follow these steps.
@@ -124,15 +123,15 @@ To get a local copy of this project up and running, follow these steps.
 
 ### Install
 
-To install this project in your local machine use
+To install this project dependencies, follow these guidelines.
 
 - Goto the terminal in Visual Studio code by pressing `ctrl + '`
-- Install the project dependencies by typing: `npm install` in the terminal.
+- Install the project dependencies by typing: `npm install` and press the enter key in the terminal.
 
 ### Usage
 To run the project, execute the following command:
 
-- In visual studio terminal type `npm run start` then the project will open on your browser "http://localhost:3000".
+- In visual studio terminal type `npm run start` then the project will open on your browser "http://localhost:8080/".
 
 ### Run tests
 
@@ -140,11 +139,6 @@ To run the project, execute the following command:
 - `npx stylelint "**/*.{css,scss}" --fix` : To fix some CSS errors if found.
 - `npx eslint .` : To test Eslint Report
 - `npx eslint . --fix` : To fix some JS errors if found
-
-### To test the application
-
-- `npm install --save-dev jest`
-- `npm test`
 
 ### Deployment
 
