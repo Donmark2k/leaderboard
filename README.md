@@ -74,13 +74,12 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-
-- **[Send and receive data from an API]**
-- **[Create a webpack]**
-- **[Use API documentation]**
-- **[Used Es6 import]**
- **[Understand and use JSON.]**
-- **[Make JavaScript code asynchronous.]**
+- Send and receive data from an API
+- Create a webpack
+- Use API documentation
+- Used Es6 import
+- Understand and use JSON.
+- Make JavaScript code asynchronous.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -93,68 +92,66 @@ After you're finished please remove all the comments and instructions!
 
 - [Live Demo Link](https://donmark2k.github.io/leaderboard/dist/)
 
+## Project Screenshots
+
+![Home page](./src/screenshot.png)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
-
 ### Prerequisites
 
- In order to run this project you need:
-
+In order to run this project you need:
 - [git](https://git-scm.com/downloads): A tool for managing source code
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
+- Have a working and updated browser
+- Have a local version control like git installed on your computer
+- Have an account and sign in on GitHub, as online/remote version control system
+- Basic knowledge in JS
 
 ### Setup
+To get a local copy of this project up and running, follow these steps.
+- copy [this link](https://github.com/Donmark2k/leaderboard.git).
+- get to the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write `git clone github.com/Donmark2k/leaderboard.git`
+- go to the repository folder in your command prompt cd maths-magicians
+- write `code .` to open the project in visual studio code.
 
-Clone this repository to your desired folder:
-https://github.com/donmark2k/leaderboard.git
+### Install
 
+To install this project dependencies, follow these guidelines.
 
-
-### Installation and Set Up
-
-- In your local PC, open your terminal in the folder you would like to clone the repository into
-- Clone the repository with the command: git clone (copied link); like so: https://github.com/Donmark2k/leaderboard.git
-- After the clone, type in the command cd GD_summit to access the directory on the terminal
-- Once the files are on your machine, open the leaderboard folder in Visual Studio Code, and follow the steps in Usage
+- Goto the terminal in Visual Studio code by pressing `ctrl + '`
+- Install the project dependencies by typing: `npm install` and press the enter key in the terminal.
 
 ### Usage
+To run the project, execute the following command:
 
-1. Install Node Modules
-- npm install
-2. Start the development server
-- npm run start
-3. Open http://localhost:8080 to view it in the browser.
-4. Generate a full static production build
-- npm run build
+- In visual studio terminal type `npm run start` then the project will open on your browser "http://localhost:8080/".
 
 ### Run tests
 
-To run tests, run the following command:
-- Run npx eslint . for JS check
-- Run npx eslint . --fix to fix JS errors if found
-- Run npx stylelint "**/*.{css,scss}" for CSS check
-- Run npx stylelint "**/*.{css,scss}" --fix to fix CSS errors if found.
+- `npx stylelint "/*.{css,scss}"**` : To test css code
+- `npx stylelint "**/*.{css,scss}" --fix` : To fix some CSS errors if found.
+- `npx eslint .` : To test Eslint Report
+- `npx eslint . --fix` : To fix some JS errors if found
 
 ### Deployment
 
 You can deploy this project using:
 - Github pages
 
-Github pages
-
-<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example</p>
+<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example on how to deploy on github pages</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
  👤**Chukwuemeka Ochuba**
 
@@ -179,7 +176,7 @@ Github pages
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Donmark2k/leaderboard/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,7 +185,7 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 [Victor Chiemerie](https://github.com/Victor-chiemerie) has been of tremendous help so far.
-Give a ⭐️ if you like this project!
+- Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
