@@ -99,47 +99,50 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+## 💻 Getting Started <a name="getting-started"></a>
 
 ### Prerequisites
 
- In order to run this project you need:
-
+In order to run this project you need:
 - [git](https://git-scm.com/downloads): A tool for managing source code
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
+- Have a working and updated browser
+- Have a local version control like git installed on your computer
+- Have an account and sign in on GitHub, as online/remote version control system
+- Basic knowledge in JS and React-JS
 
 ### Setup
+To get a local copy of this project up and running, follow these steps.
+- copy [this link](https://github.com/Donmark2k/maths-magicians.git).
+- get to the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write `git clone github.com/Donmark2k/maths-magicians.git`
+- go to the repository folder in your command prompt cd maths-magicians
+- write `code .` to open the project in visual studio code.
 
-Clone this repository to your desired folder:
-https://github.com/donmark2k/leaderboard.git
+### Install
 
+To install this project in your local machine use
 
-
-### Installation and Set Up
-
-- In your local PC, open your terminal in the folder you would like to clone the repository into
-- Clone the repository with the command: git clone (copied link); like so: https://github.com/Donmark2k/leaderboard.git
-- After the clone, type in the command cd GD_summit to access the directory on the terminal
-- Once the files are on your machine, open the leaderboard folder in Visual Studio Code, and follow the steps in Usage
+- Goto the terminal in Visual Studio code by pressing `ctrl '`
+- Install the project dependencies by typing: `npm install` in the terminal.
 
 ### Usage
+To run the project, execute the following command:
 
-1. Install Node Modules
-- npm install
-2. Start the development server
-- npm run start
-3. Open http://localhost:8080 to view it in the browser.
-4. Generate a full static production build
-- npm run build
+- In visual studio terminal type `npm start` then the project will open on your browser "http://localhost:3000".
 
 ### Run tests
 
-To run tests, run the following command:
-- Run npx eslint . for JS check
-- Run npx eslint . --fix to fix JS errors if found
-- Run npx stylelint "**/*.{css,scss}" for CSS check
-- Run npx stylelint "**/*.{css,scss}" --fix to fix CSS errors if found.
+- `npx stylelint "/*.{css,scss}"**`: To test css code
+- `npx stylelint "**/*.{css,scss}" --fix`: To fix some CSS errors if found.
+- `npx eslint .` : To test Eslint Report
+- `npx eslint . --fix`: To fix some JS errors if found
+
+### To test the application
+
+- `npm install --save-dev jest`
+- `npm test`
 
 ### Deployment
 
