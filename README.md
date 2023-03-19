@@ -94,7 +94,7 @@ After you're finished please remove all the comments and instructions!
 
 ## Project Screenshots
 
-![Home page](./src/screenshot.png)
+![Home page](./src/asset/screenshot.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
