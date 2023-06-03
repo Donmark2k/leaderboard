@@ -10,7 +10,7 @@ body {
   background-color: #903;
   margin: 5%;
   border-radius: 12px;
-  box-shadow: 4px 4px  rgba(95, 6, 6, 0.8);
+  box-shadow: 4px 4px rgba(95, 6, 6, 0.8);
 }
 
 h1 {
@@ -25,44 +25,20 @@ h2 {
   color: #f2f2f2;
 }
 
-.recent-refresh {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.recent-scores {
-  width: 92%;
-  margin: 0;
-  padding: 0;
-}
-
 button {
   background: none;
   border: none;
 }
 
-.arrow {
-  color: green;
-  font-size: 40px;
-  font-weight: bold;
-}
-
 ul {
-  margin: 0 0 24px 0;
   padding: 0;
-  width: 90%;
+  width: 84%;
 }
 
 li {
   list-style-type: none;
   padding: 4px 8px;
-  width: 100%;
-  margin: 0;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   color: white;
 }
@@ -72,18 +48,12 @@ ul li:nth-child(even) {
   color: black;
 }
 
-#refresh {
-  margin: auto 0;
-  cursor: pointer;
-}
-
 .container {
-  width: 90%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(327px, 2fr));
-  margin: 0 auto;
   justify-content: space-between;
   column-gap: 124px;
+  padding-left: 9%;
 }
 
 form {
@@ -107,7 +77,6 @@ form {
   padding: 4px 8px;
   margin-top: 12px;
   align-self: flex-end;
-  width: auto;
 }
 
 input {
