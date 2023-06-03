@@ -5,14 +5,9 @@ import postScore from './modules/postScore.js';
 window.onload = getScore();
 
 const inputForm = document.getElementById('score-form');
-const refreshButton = document.getElementById('refresh');
 const userName = document.getElementById('name');
 const userScore = document.getElementById('score');
 const error = document.getElementById('error-message');
-
-refreshButton.addEventListener('click', () => {
-  getScore();
-});
 
 inputForm.addEventListener('submit', (event) => {
   event.preventDefault();
