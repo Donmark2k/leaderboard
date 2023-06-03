@@ -66,20 +66,40 @@ After you're finished please remove all the comments and instructions!
 
 
 ## 🛠 Built With <a name="built-with"></a>
-- HTML
-- CSS
-- Javascript
-- Webpack
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>HTML</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link to HTML</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>CSS</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Link to CSS</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Javascript</summary>
+  <ul>
+    <li><a href="https://www.javascript.com/">Link to Javascript</a></li>
+  </ul>
+</details>
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- Send and receive data from an API
-- Create a webpack
-- Use API documentation
-- Used Es6 import
-- Understand and use JSON.
-- Make JavaScript code asynchronous.
+- **This Project has a Readme.md file**
+- **This Project has a gitignore file**
+- **This projects follows all Microverse Linters**
+- **This project takes user inputs of names and scores**
+- **This project displays the input for name and scores in the recent scores box**
+- **This project saves the score details to an API**
+- **This project fetches the score details from an API**
+- **This project has syntax with ES6 format.**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -109,43 +129,41 @@ In order to run this project you need:
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
 - Have a working and updated browser
 - Have a local version control like git installed on your computer
-- Have an account and sign in on GitHub, as online/remote version control system
-- Basic knowledge in JS
+- A copy of the link of this Repository.
+```sh
+ https://github.com/Donmark2k/leaderboard.git
+```
 
 ### Setup
-To get a local copy of this project up and running, follow these steps.
-- copy [this link](https://github.com/Donmark2k/leaderboard.git).
-- get to the directory that you want to clone the repository.
-- open the command prompt in this directory.
-- write `git clone github.com/Donmark2k/leaderboard.git`
-- go to the repository folder in your command prompt cd maths-magicians
-- write `code .` to open the project in visual studio code.
+Clone this repository to your desired directory using the command: 
+
+```sh
+  cd your-folder
+  git clone https://github.com/Donmark2k/leaderboard.git 
+```
 
 ### Install
 
-To install this project dependencies, follow these guidelines.
+Install the required dependencies using the following command:
 
-- Goto the terminal in Visual Studio code by pressing `ctrl + '`
-- Install the project dependencies by typing: `npm install` and press the enter key in the terminal.
-
+```sh
+  npm install
+```
 ### Usage
-To run the project, execute the following command:
+Run the server using the following command:
 
-- In visual studio terminal type `npm run start` then the project will open on your browser "http://localhost:8080/".
-
+```sh
+  npm start
+```
 ### Run tests
-
-- `npx stylelint "/*.{css,scss}"**` : To test css code
-- `npx stylelint "**/*.{css,scss}" --fix` : To fix some CSS errors if found.
-- `npx eslint .` : To test Eslint Report
-- `npx eslint . --fix` : To fix some JS errors if found
-
-### Deployment
-
-You can deploy this project using:
-- Github pages
-
-<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example on how to deploy on github pages</p>
+Run this command to fix some CSS linters error
+```sh
+  npx stylelint "**/*.{css,scss}" --fix
+``` 
+Run this command to fix some JavaScript linters error
+```sh
+  npx eslint . --fix
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,8 +183,11 @@ You can deploy this project using:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- I will add time and date below the nav bar
-- I will add a footer to the home page
+
+- [ ] **[User Sign In and interactions]**
+- [ ] **[Fan comments and votes]**
+- [ ] **[Various Game details like opponent and rounds]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,7 +205,6 @@ Feel free to check the [issues page](https://github.com/Donmark2k/leaderboard/is
 
 ## ⭐️ Show your support <a name="support"></a>
 
-[Victor Chiemerie](https://github.com/Victor-chiemerie) has been of tremendous help so far.
 - Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -201,13 +221,13 @@ I would like to appreciate [Microverse](https://www.microverse.org/) for providi
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-- **[Are you sure that you are owner of this work]**
+- **Are Leaderboard fair?**
 
-  - [Yes, I am]
+  - Leaderboard aim to be fair by ranking participants based on objective criteria. 
 
-- **[Can you make the work to be responsive]**
+- **How can I get on a leaderboard?**
 
-  - [yes]
+  - To get on a leaderboard, you need to participate in the competition associated with it.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
