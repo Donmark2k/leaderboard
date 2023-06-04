@@ -27,10 +27,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="https://cdn.icon-icons.com/icons2/3414/PNG/512/star_leaderboard_icon_218055.png" alt="logo" width="140"  height="auto" />
+  <img src="https://cdn-icons-png.flaticon.com/512/3150/3150115.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h1><b>Leaderboard 🏆🏆🏆</b></h1>
 
 </div>
 
@@ -236,6 +236,6 @@ I would like to appreciate [Microverse](https://www.microverse.org/) for providi
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
